@@ -1,0 +1,22 @@
+/* CSS style to customize list items */
+ul.item-1 {
+    list-style: none;
+    padding-left: 1rem; /* Add some left padding to create space for the custom marker */
+  }
+  
+  ul.item-1 li {
+    position: relative;
+  }
+  
+  ul.item-1 li::marker {
+    content: "🎗️"; /* Replace the standard marker with the 🎗️ emoji */
+    font-size: 1.2rem; /* Adjust the size of the emoji as needed */
+    margin-right: 0.5rem; /* Add some right margin for spacing */
+    color: #f0ad4e; /* Customize the color of the emoji */
+  }
+  
+  /* If you want to style the text inside the list item */
+  ul.item-1 li span {
+    /* Add your custom styles here */
+  }
+  

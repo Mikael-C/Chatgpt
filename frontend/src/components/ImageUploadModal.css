@@ -1,0 +1,21 @@
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-item {
+  position: relative;
+}
+
+.image-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-item button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+} 

@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .identify-objects-card {
+        width: 100% !important;
+    }
+
+}
+
+.identify-objects-card {
+    width: 460px;
+    margin: auto;
+    margin-top: 0.5rem !important;
+    padding: 0.25rem;
+}
+
+.identify-image-object-container {
+    height: 100vh;
+    /* Set a fixed height for the container */
+    overflow: auto;
+    /* Enable scrolling when the content exceeds the container height */
+}
+
+.identify-image-object-content {
+    padding: 1rem;
+}

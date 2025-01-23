@@ -1,0 +1,305 @@
+.main-box {
+  width: 100%;
+  height: 100vh
+}
+
+@media (max-width: 768px) {
+  .chat-panel {
+    width: 100% !important;
+    min-width: 0px !important;
+    padding-bottom: 120px;
+  }
+
+  .menu-bar {
+    width: 100% !important;
+
+  }
+
+
+
+  .ant-list-item {
+    flex-direction: column;
+  }
+
+  .ant-list-item-meta-avatar {
+    margin-right: 0 !important;
+    margin-bottom: 16px;
+  }
+
+  .ant-list-item-meta-title {
+    font-size: 18px;
+  }
+
+  .ant-list-item-extra {
+    margin: 0.4rem;
+  }
+
+  .chat-accessories-box {
+    position: relative;
+    bottom: 8px;
+  }
+}
+
+.chat-panel {
+  margin: auto;
+  padding: 1.5rem;
+  width: 95%;
+  min-width: 700px;
+  height: inherit;
+  overflow-y: scroll;
+  padding-bottom: 120px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.chat-panel-holder {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  max-width: 1024px;
+  padding-bottom: 160px;
+}
+
+.chat-accessories {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 16px 0 24px 0;
+  z-index: 1000;
+}
+
+.menu-bar {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-width: 995px;
+}
+
+.menu-bar .left-section,
+.menu-bar .right-section {
+  display: flex;
+  align-items: center;
+}
+
+.menu-bar .right-section {
+  margin-left: auto;
+}
+
+.menu-bar button {
+  margin: 5px;
+}
+
+a {
+  color: #a85e5e !important;
+}
+
+a:hover {
+  color: #4d1313 !important;
+}
+
+.list-item-odd {
+  background-color: #ffffff;
+}
+
+.list-item-even {
+  background-color: #f0f4fd;
+}
+
+.chat-panel::-webkit-scrollbar {
+  width: 3px;
+}
+
+.chat-panel::-webkit-scrollbar-track {
+  background-color: #f5f5f500;
+
+}
+
+.chat-panel::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 20px;
+}
+
+.chat-panel::-webkit-scrollbar-thumb:hover {
+  background-color: #ccc;
+}
+
+.ant-list-item-main {
+  width: 100% !important
+}
+
+.list-item-error {
+  background-color: #f9eaea;
+}
+
+.float-btn {
+  position: fixed;
+  bottom: 25%;
+  left: 80%;
+  display: inline;
+}
+
+.col-btn-accessories {
+  text-align: center;
+  padding: 2px;
+}
+
+.chat-input {
+  max-width: 768px;
+}
+
+.chat-accessories-box {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 12px auto;
+  padding: 12px 16px;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-input {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 8px 120px 8px 16px !important;
+  resize: none !important;
+  background: transparent !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+.chat-input:focus {
+  outline: none !important;
+}
+
+.button-group {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Enhance the quick actions section */
+.ant-btn-primary {
+  border-radius: 8px !important;
+  height: 40px !important;
+  padding: 0 20px !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-btn-dashed {
+  border-radius: 8px !important;
+  height: 36px !important;
+  padding: 0 16px !important;
+  transition: all 0.3s ease !important;
+}
+
+.button-group .send-button.ant-btn.ant-btn-primary {
+  background-color: #1677ff !important;
+  border: none !important;
+  color: #fff !important;
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+}
+
+.button-group .send-button.ant-btn.ant-btn-primary:hover {
+  background-color: #0056b3 !important;
+  /* A darker shade for hover effect */
+  border: none !important;
+  color: #fff !important;
+}
+
+.button-group .send-button.ant-btn.ant-btn-primary:disabled {
+  background-color: #0056b3 !important;
+  /* Light gray for disabled */
+  border: none !important;
+  color: #999 !important;
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
+button.ant-btn.css-dev-only-do-not-override-ed5zg0.ant-btn-circle.ant-btn-primary.ant-btn-icon-only {
+  background-color: #0056b3 !important;
+}
+
+.button-group .ant-btn {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1px solid #e6e6e6 !important;
+  background: white !important;
+}
+
+.col-btn-accessories {
+  position: relative;
+}
+
+.chat-message-disclaimer {
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+  margin-top: 8px;
+  padding: 0 16px;
+}
+
+.chat-message-disclaimer a {
+  color: #1677ff !important;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .chat-accessories-box {
+    margin: 0 16px 12px 16px;
+  }
+
+  .chat-panel-holder {
+    padding-bottom: 180px;
+  }
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.button-group .ant-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar .right-section button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 150px;
+  /* Adjust as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menu-bar .right-section .avatar {
+  margin-right: 8px;
+}

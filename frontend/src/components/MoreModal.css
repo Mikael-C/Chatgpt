@@ -1,0 +1,12 @@
+.btn-block
+{
+    width: 100% !important;
+    height: 100px !important;
+    padding: 1rem !important;
+    margin: 1rem !important
+}
+
+span 
+{
+    white-space: break-spaces !important;
+}

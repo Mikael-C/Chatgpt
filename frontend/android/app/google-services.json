@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "506381071204",
+    "project_id": "chatgptpp-7d9f2",
+    "storage_bucket": "chatgptpp-7d9f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506381071204:android:e9406ec99a07c2bbc64071",
+        "android_client_info": {
+          "package_name": "com.lonerinc.gptpp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506381071204-6ho43i1h58d9tp2vjn21b0dasbmhthd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxEoqXh6PrdnwSgdQ8jraDzvNEk8N56Ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506381071204-6ho43i1h58d9tp2vjn21b0dasbmhthd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7045822077342097~6119151130"
+    }
+  ],
+  "configuration_version": "1"
+}
